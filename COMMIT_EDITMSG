@@ -1,0 +1,33 @@
+docs: Add comprehensive README documentation
+
+- Add project overview and key features
+- Document technology stack (Frontend/Backend)
+- Include installation instructions
+- List authentication and event management features
+- Detail responsive design components
+
+This README provides clear documentation for new contributors and users.
+
+The Campus Events Platform is a full-stack application designed to streamline 
+campus event management. Key additions to the documentation include:
+
+Technical Details:
+- Complete tech stack breakdown for both frontend and backend
+- Detailed authentication system using JWT
+- MongoDB integration with Mongoose schemas
+- React components and routing structure
+
+User Features:
+- Admin privileges and user role management
+- Event CRUD operations and filtering
+- Calendar view implementation
+- RSVP system functionality
+
+Installation & Setup:
+- Step-by-step setup instructions
+- Environment variable configuration
+- Development server setup
+- Database connection requirements
+
+This documentation serves as a comprehensive guide for developers 
+looking to understand, contribute to, or deploy the platform. 
