@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link, useNavigate } from 'react-router-dom';
 import { useAuth, AuthProvider } from './context/AuthContext';
 import HomePage from './pages/HomePage';
@@ -10,6 +10,7 @@ import CalendarView from './pages/CalendarView';
 import ProfilePage from './pages/ProfilePage';
 import EditEvent from './pages/EditEvent';
 import './styles/global.css';
+import './App.css';
 
 const Navigation = () => {
   const { user, logout } = useAuth();
